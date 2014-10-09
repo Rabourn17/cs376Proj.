@@ -2,8 +2,11 @@
 # Author: Tanya L. Crenshaw
 CC=gcc
 
-robots.out:	main.c robot.o robot.h
-	$(CC) -o robots.out main.c robot.o
+robots.out:	main.c robot.o robot.h ohta17.o
+	$(CC) -o robots.out main.c robot.o ohta17.o
 
-robot.o:	robot.c robot.h
+robot.o:	robot.c robot.h ohta17.h
 	$(CC) -c robot.c
+
+ohta17.o:	ohta17.c ohta17.h
+	$(CC) -c ohta17.c
