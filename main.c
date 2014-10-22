@@ -27,7 +27,10 @@ int main(int argc, const char * argv[])
     printf("usage: %s <number> \n", argv[0]);
     return -1;
   }
+
+
   ohta17();
+
   rabourn17();
   // Convert the command-line argument to a number.
   int num = atoi(argv[1]);
