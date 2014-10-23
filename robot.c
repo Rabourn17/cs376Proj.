@@ -48,6 +48,19 @@ void robPrintAscii(void)
 	 "   [Q_T]   \n"
 	 "   [Q_T]   \n"
 	 "  /|___|\\  \n"
-         "   d   b   "); 
+         "   d   b  \n "); 
+ 
+ printf( "          i_i    \n"
+         "          [Q_T]   \n"
+         "          [Q_T]   \n"
+         "         /|___|\\  \n"
+         "          d   b  \n ");
+
+ printf( "                    i_i    \n"
+         "                    [Q_T]   \n"
+         "                    [Q_T]   \n"
+         "                   /|___|\\  \n"
+	 "                    d   b  \n ");
+
 
 }
